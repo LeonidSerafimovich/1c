@@ -26,7 +26,7 @@ const LableTopInput = forwardRef<HTMLInputElement, ILableTopInputProps>(
 					id={id}
 					name={name}
 					onChange={handleChange}
-					className='peer bg-transparent h-10 w-[295px] rounded-lg text-black placeholder-transparent ring-2 px-2 ring-gray-300 focus:ring-sky-600 focus:outline-none'
+					className='peer bg-transparent h-10 w-full border-2 hover:border-sky-300 rounded-md  text-black placeholder-transparent ring-2 px-2 ring-gray-300 focus:ring-sky-600 focus:outline-none'
 					placeholder={placeholder}
 					required={required}
 					ref={input => {

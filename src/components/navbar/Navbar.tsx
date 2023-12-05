@@ -1,52 +1,40 @@
 'use client'
 
 import AuthButtons from './AuthButtons'
-import Logo from './Logo'
 import NavLink from './NavLink'
-import PromoPoster from '../images/promo-poster.png'
-import Image from 'next/image'
 
 export default function Navbar() {
 	return (
-		<header className='bg-gradient-to-r from-[#fcf336] to-[#fbc315]  text-black w-full ease-in duration-800s top-0 left-0 z-50 '>
-			<div className='text-xl font-bold flex max-w-[1366px] mx-auto  flex-col items-center '>
-				Круглосуточная поддержка
-				<span> 8 (800) 333-72-27 </span>
-			</div>
+		<header className='bg-black  text-white w-full ease-in duration-800s top-0 left-0 z-50 '>
 			<nav className='max-w-[1366px] mx-auto h-[100px] flex justify-between items-center mt-0 '>
-				<Logo />
+				<div className='text-lg font-bold'>Консалтинговая группа "Портал"</div>
 				<ul className=' text-gray-200 normal-case hidden items-center md:flex font-semibold lg:text-[20px]'>
 					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Главная' />
+						<NavLink href='#about' text='О компании' />
 					</div>
 					<div className='transition-transform transform hover:scale-105'>
 						<NavLink href='/' text='Приложения' />
 					</div>
 					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Преимущества' />
+						<NavLink href='#services' text='Услуги 1С:БО' />
 					</div>
 					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Отзывы' />
+						<NavLink href='#rent' text='1С:Аренда' />
 					</div>
 					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Тарифы' />
+						<NavLink href='#product' text='Продукты 1С' />
 					</div>
 					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='О сервисе' />
+						<NavLink href='#escort' text='Сопровождение 1С (ИТС)' />
 					</div>
 					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Магазин расширений' />
+						<NavLink href='#contacts' text='Контакты' />
 					</div>
-					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Партнерам' />
-					</div>
-					<div className='transition-transform transform hover:scale-105'>
-						<NavLink href='/' text='Справка' />
-					</div>
+
 					<AuthButtons />
 				</ul>
 			</nav>
-			<div className=' max-w-[1366px] mx-auto flex '>
+			{/* <div className=' max-w-[1366px] mx-auto flex '>
 				<div className='text-[53px] flex flex-col '>
 					<h1 className='mb-[-1.5rem]'>1С:Предприятие 8 </h1>
 					<span className='ml-[5px]'>через Интернет</span>
@@ -74,7 +62,7 @@ export default function Navbar() {
 						className='w-full h-full object-cover'
 					/>
 				</div>
-			</div>
+			</div> */}
 		</header>
 	)
 }
