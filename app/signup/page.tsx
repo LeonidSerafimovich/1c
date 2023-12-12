@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Home() {
 	return (
-		<div className='mt-[100px] bg-gradient-to-r from-[#24262b] to-white'>
+		<div>
 			<SignUpForm />
 		</div>
 	)

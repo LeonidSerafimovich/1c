@@ -7,7 +7,7 @@ interface NavLinkProps {
 
 const NavLink: React.FC<NavLinkProps> = ({ href, text }) => {
 	return (
-		<li className=' lg:mr-4 text-white text-[19px] hover:text-red-600 duration-150'>
+		<li className=' lg:mr-2 text-white text-[19px]  hover:text-[#B39C39] duration-150'>
 			<Link href={href}>{text}</Link>
 		</li>
 	)

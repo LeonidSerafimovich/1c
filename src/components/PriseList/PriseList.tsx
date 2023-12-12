@@ -19,13 +19,16 @@ const PriseList: React.FC = () => {
 	}
 
 	return (
-		<div id='services'>
+		<div
+			id='services'
+			className='border rounded-lg shadow-xl bg-white border-gray-100 mt-4 pb-2'
+		>
 			<h2 className='text-[40px] text-center font-bold mt-6 mb-4'>
 				Стоимость услуг 1С:БухОбслуживание.
 			</h2>
 			<div className='bg-white grid grid-cols-3 gap-2 '>
 				<div className='flex flex-col h-full justify-between'>
-					<div className='flex flex-col  ml-12 mt-8 items-center'>
+					<div className='flex flex-col ml-12 mt-8 items-center'>
 						<div className='relative border-2 rounded-lg overflow-hidden'>
 							<Image src={ReportingJpg} alt={''} className='rounded-lg' />
 							<div className='absolute bottom-[180px] left-[] right-0 bg-green-300 text-center p-2 rounded-lg'>
@@ -38,7 +41,7 @@ const PriseList: React.FC = () => {
 						</h3>
 					</div>
 
-					<p className='text-[16px] ml-[50px]  mt-2 items-start '>
+					<p className='text-[17px] ml-[50px] text-justify mt-2 items-start '>
 						Тариф подходит ООО и ИП, которые самостоятельно вводят все данные в
 						облачную «1С:Бухгалтерию». Решает задачи: составление и сдача
 						отчетности. Консультации по вопросам ведения бухгалтерского и
@@ -49,7 +52,7 @@ const PriseList: React.FC = () => {
 					<div className='mb-8 flex justify-center'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -73,17 +76,17 @@ const PriseList: React.FC = () => {
 							Тариф "Комплексный сервис"
 						</h3>
 					</div>
-					<p className='text-[16px] ml-[50px] mt-2 items-start '>
+					<p className='text-[17px] ml-[50px] text-justify mt-2  '>
 						Тариф подходит ООО и ИП с сотрудниками независимо от оборотов
 						компании и сферы бизнеса. Решает задачи: передает все заботы
 						бухучета профессионалам. Премущества: бухгалтер всегда на связи,
 						удаленный дотуп к учетной базе, оплата за услуги по факту и объему
 						выполненных работ.
 					</p>
-					<div className='mb-8 flex justify-center'>
+					<div className='mb-8 flex mt-[50px] justify-center'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -107,7 +110,7 @@ const PriseList: React.FC = () => {
 							Тарифный план "Кадровый учет и заработная плата".
 						</h3>
 					</div>
-					<p className='text-[16px] ml-[50px] mt-2 items-start '>
+					<p className='text-[17px] ml-[50px] text-justify mt-2 pr-[50px] '>
 						Тариф подходит для компаний, которые организовали ведение бухучета
 						самостоятельно, но не готовы вникать в тонкости кадрового учета и
 						расчета заработной платы «1С:Бухгалтерию». Решает задачи:
@@ -120,7 +123,7 @@ const PriseList: React.FC = () => {
 					<div className='mb-8 flex justify-center '>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>

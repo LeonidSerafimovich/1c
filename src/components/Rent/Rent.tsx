@@ -3,6 +3,8 @@
 import Advantage from '../AdvantageOneC/Advantage'
 import React, { useState } from 'react'
 import FeedbackForm from '../FeedbackForm/FeedbackForm'
+import Image from 'next/image'
+import logi from '../images/logi2.png'
 
 const Rent: React.FC = () => {
 	const [isFormOpen, setFormOpen] = useState(false)
@@ -16,17 +18,19 @@ const Rent: React.FC = () => {
 	}
 
 	return (
-		<div id='rent'>
-			<div className='bg-sky-200 '>
-				<div className='max-w-[1366px] mx-auto text-[72px] flex justify-center'>
-					Аренда «1С»
-				</div>
-				<div className='flex justify-center text-[24px]'>
-					<div className='border-2 border-green-600 bg-green-400 rounded-md px-1'>
+		<div id='rent' className='mt-19'>
+			<div className='border-2 border-stone-100 mb-4 shadow-xl rounded-xl '>
+				<div className=' mx-auto text-[42px] flex justify-center items-center'>
+					Аренда «1С»{' '}
+					<p className='text-[32px] text-[#B39C39] ml-6'>
 						От 1100 руб. в месяц.
-					</div>
+					</p>
 				</div>
+
 				<div className='flex justify-center text-[24px] '>
+					<div className='w-[320px] h-[320px] mr-8'>
+						<Image src={logi} alt={''} className='rounded-lg  ' />
+					</div>
 					<div>
 						<div>
 							<p>1. Работа с любого устройства везде, где есть Интернет.</p>
@@ -38,7 +42,7 @@ const Rent: React.FC = () => {
 						<div className='mb-8'>
 							<button
 								onClick={openForm}
-								className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+								className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 							>
 								Оставить заявку
 							</button>
@@ -46,8 +50,8 @@ const Rent: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<Advantage />
 			</div>
+			<Advantage />
 		</div>
 	)
 }

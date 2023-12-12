@@ -22,11 +22,14 @@ const ProductsСompany: React.FC = () => {
 	}
 
 	return (
-		<div id='product'>
+		<div
+			id='product'
+			className='border rounded-lg shadow-xl bg-white border-gray-100 pb-2 mt-4'
+		>
 			<h2 className='text-[40px] text-center font-bold mt-6 mb-4'>
 				Продукты фирмы "1С".
 			</h2>
-			<div className=' grid grid-cols-3 gap-8 pb-8 '>
+			<div className=' grid grid-cols-3 gap-8 pb-8 mr-[30px] '>
 				<div className='flex flex-col h-full justify-between'>
 					<div className='ml-12 mt-8'>
 						<div className='relative rounded-lg overflow-hidden'>
@@ -44,7 +47,7 @@ const ProductsСompany: React.FC = () => {
 							1С:Бухгалтерия 8 ПРОФ
 						</h3>
 						<div>
-							<p className='text-[16px]   mt-2 items-start '>
+							<p className='text-[17px] text-justify  mt-[49px] items-start '>
 								«1C:Бухгалтерия 8» — это самая популярная бухгалтерская
 								программа, способная вывести автоматизацию учета на качественно
 								новый уровень. Удобный продукт и подключаемые к нему сервисы
@@ -56,7 +59,7 @@ const ProductsСompany: React.FC = () => {
 					<div className='ml-16'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -81,7 +84,7 @@ const ProductsСompany: React.FC = () => {
 							1С:Зарплата и Управление Персоналом 8 ПРОФ
 						</h3>
 						<div>
-							<p className='text-[16px]  mt-2 items-start '>
+							<p className='text-[17px] text-justify  mt-2 items-start '>
 								«1С:Зарплата и управление персоналом 8» — программа массового
 								назначения, позволяющая в комплексе автоматизировать задачи,
 								связанные с расчетом заработной платы персонала и реализацией
@@ -93,7 +96,7 @@ const ProductsСompany: React.FC = () => {
 					<div className='ml-16'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -117,7 +120,7 @@ const ProductsСompany: React.FC = () => {
 							1С:Управление торговлей 8 ПРОФ
 						</h3>
 						<div>
-							<p className='text-[16px] mt-2 items-start '>
+							<p className='text-[17px] text-justify mt-2 items-start '>
 								«1С:Управление торговлей 8» — это современный инструмент для
 								повышения эффективности бизнеса торгового предприятия. Программа
 								позволяет в комплексе автоматизировать задачи оперативного и
@@ -130,7 +133,7 @@ const ProductsСompany: React.FC = () => {
 					<div className='ml-16'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -154,7 +157,7 @@ const ProductsСompany: React.FC = () => {
 							1С:Управление нашей фирмой ПРОФ
 						</h3>
 						<div>
-							<p className='text-[16px]  mt-2 items-start '>
+							<p className='text-[17px] text-justify  mt-2 items-start '>
 								1С:УНФ используют: Розничные магазины Поддержка 54-ФЗ, работа с
 								онлайн-кассами и ККТ, обмен данными с ГИСМ и ЕГАИС.
 								Интернет-магазины Полная интеграция с сайтом, обработка заказов,
@@ -172,7 +175,7 @@ const ProductsСompany: React.FC = () => {
 					<div className='ml-16'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -196,7 +199,7 @@ const ProductsСompany: React.FC = () => {
 							1С:Комплексная автоматизация
 						</h3>
 						<div>
-							<p className='text-[16px]  mt-2 items-start '>
+							<p className='text-[17px] text-justify  mt-2 items-start '>
 								«1С:Комплексная автоматизация» — это программа для построения на
 								предприятии единой информационной системы, охватывающей основные
 								задачи управления и учета. Данное решение позволяет
@@ -208,7 +211,7 @@ const ProductsСompany: React.FC = () => {
 					<div className='ml-16'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>
@@ -232,7 +235,7 @@ const ProductsСompany: React.FC = () => {
 							1С:ERP Управление предприятием
 						</h3>
 					</div>
-					<p className='text-[16px]  mt-2 items-start '>
+					<p className='text-[17px] text-justify  mt-2 items-start '>
 						«1С:ERP Управление предприятием» позволит построить комплексную
 						информационную систему для управления деятельностью любого
 						предприятия. Это инновационное решение от компании «1С» использует
@@ -244,10 +247,10 @@ const ProductsСompany: React.FC = () => {
 						инструментов, подходит для использования на предприятиях любой
 						численности.
 					</p>
-					<div className='ml-16'>
+					<div className='ml-16 mt-16'>
 						<button
 							onClick={openForm}
-							className='bg-red-600 normal-case border-2 text-lg  hover:bg-red-400 bg-blacktext-slate-300 transition duration-300 text-black rounded-full py-2 px-3 mr-6 mt-8 font-bold'
+							className='bg-[#B39C39] normal-case border-2 hover:border-[#B39C39] text-lg  hover:bg-white text-white duration-300 hover:text-[#B39C39] rounded-md py-1 px-2 mr-6 mt-8 '
 						>
 							Оставить заявку
 						</button>

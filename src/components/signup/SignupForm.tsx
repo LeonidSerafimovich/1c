@@ -23,7 +23,7 @@ function SignUpForm() {
 	}
 
 	return (
-		<div className='wrapper mt-[0px] min-h-screen flex items-center justify-center'>
+		<div className='wrapper mt-[0px] flex items-center justify-center'>
 			<div className='bg-white border-2 rounded-lg p-4 text-center'>
 				<h1 className='text-3xl font-medium mb-4'>Регистрация на сайте</h1>
 				<form onSubmit={handleSubmit(onSubmit)} className='grid gap-4'>
@@ -81,7 +81,7 @@ function SignUpForm() {
 					<button
 						onClick={() => router.replace('/')}
 						type='submit'
-						className='bg-blue-500 hover:bg-yellow-400 hover:text-black duration-200 py-2 px-4 rounded-md text-white'
+						className='bg-blue-500 hover:bg-yellow-400 text-[18px] hover:text-black duration-200 py-2 px-4 rounded-md text-white'
 					>
 						Зарегистрироваться
 					</button>

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'lato';
+	src: url('../fonts/Lato-Regular.ttf') format('woff2'),
+		url('../fonts/Lato-Regular.ttf') format('woff');
+	/* Добавьте другие форматы шрифта, если необходимо */
+}

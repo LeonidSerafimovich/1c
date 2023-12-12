@@ -3,7 +3,7 @@ import Logo from '../images/logo.png'
 
 function About() {
 	return (
-		<div id='about' className='bg-yellow-400'>
+		<div id='about' className='bg-yellow-400 rounded-lg shadow-xl'>
 			<div className='max-w-[1366px] mx-auto text-[40px] flex justify-center items-center'>
 				<div className='flex'>
 					<Image
