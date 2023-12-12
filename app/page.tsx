@@ -6,6 +6,7 @@ import Rent from '@/components/Rent/Rent'
 import About from '@/components/About/About'
 import Apps from '@/components/appsOneC/apps'
 import Dropdown from '@/components/inputs/dropDawn/dropDawn'
+import Carousel from '@/components/Carousel/Carousel'
 
 export const metadata = {
 	title: 'home',
@@ -16,11 +17,11 @@ export default function Home() {
 	return (
 		<div className='max-w-[1366px] mx-auto'>
 			<Rent />
-			<Dropdown />
 			<PriseList />
 			<ProductsСompany />
 			<Apps />
 			<EscortOneC />
+			<Carousel />
 			<About />
 			<Сontacts />
 		</div>

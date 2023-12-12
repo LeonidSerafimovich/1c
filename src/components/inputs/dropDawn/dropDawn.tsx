@@ -39,7 +39,7 @@ const Dropdown = () => {
 			{isOpen && (
 				<div className='ml-2'>
 					<div className=' text-start py-8'>
-						<div className='mx-auto max-w-[550px] border rounded-lg shadow-xl bg-white border-gray-100 p-2 '>
+						<div className='max-w-[550px] border rounded-lg shadow-xl bg-white border-gray-100 p-2 '>
 							<p className='text-[20px] text-justify'>
 								Ваш бизнес еще совсем молодой, а контролирующие органы хотят,
 								чтобы все было «по-взрослому» уже сейчас? Вы индивидуальный
@@ -52,7 +52,7 @@ const Dropdown = () => {
 						<h3 className='text-4xl text-black font-bold max-w-[1366px] mx-auto mb-4 pb-2'>
 							Думаете об открытии собственного бизнеса? Не знаете с чего начать?
 						</h3>
-						<div className='mx-auto max-w-[850px] text-justify mb-6 border rounded-lg shadow-xl bg-white border-gray-100 p-4 '>
+						<div className=' max-w-[850px] text-justify mb-6 border rounded-lg shadow-xl bg-white border-gray-100 p-4 '>
 							<p className='text-[20px]'>
 								Успешные предприниматели не перестают говорить, что начать
 								бизнес и удержать его в начальной стадии гораздо сложнее, чем
@@ -75,7 +75,7 @@ const Dropdown = () => {
 							Хотите доверить вести дела своей организации опытной и
 							ответственной команде?
 						</h3>
-						<div className='mx-auto max-w-[850px] mb-6 border bg-white rounded-lg shadow-xl  border-gray-100 p-4 '>
+						<div className=' max-w-[850px] mb-6 border bg-white rounded-lg shadow-xl  border-gray-100 p-4 '>
 							<p className='text-[20px] text-justify'>
 								Любой руководитель бизнеса должен заниматься его развитием, так
 								как ему нужно не только вырасти в большую компанию, а в условиях

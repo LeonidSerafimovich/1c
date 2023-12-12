@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import NavLink from './NavLink'
-import LoginButton from './AuthButtons'
+import LoginButton from './LoginButton'
 
 export default function Navbar() {
 	return (
